@@ -1,13 +1,15 @@
 QA - VIM & LINUX BASICS
 
-1:  Write the linux command to switch another user. 
-    -sudo -iu username
+1:  Write the linux command to switch another user.
 
+sudo -iu <username>
 2:  Write the linux command to create a new user. 
-    -   sudo adduser username sudo
+
+    -  sudo adduser <username>
 
 3:  Write the linux command to create a new group. 
-    -   sudo groupadd groupname
+    sudo addgroup <groupname>
+
 
 4:  Write the linux command to add a member to a group. 
     -   sudo usermod -aG groupname username
