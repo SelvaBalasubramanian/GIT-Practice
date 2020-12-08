@@ -1,31 +1,33 @@
 QA - VIM & LINUX BASICS
 
-1:  Write the linux command to switch another user. 
+1:  Write the linux command to switch another user.
 
 sudo -iu <username>
 2:  Write the linux command to create a new user. 
+
     -  sudo adduser <username>
 
 3:  Write the linux command to create a new group. 
     sudo addgroup <groupname>
 
+
 4:  Write the linux command to add a member to a group. 
-    -   <ANSWER HERE>
+    -   sudo usermod -aG groupname username
 
 5:  Write the linux command to copy a file from one location to another. 
-    -   <ANSWER HERE>
+    -   cp source destination
 
 6:  Write the linux command to change permission of a file with all rights to owner, read & excecute rights to group and read right alone to others. 
-    -   <ANSWER HERE>
+    -  chmod 754 filename
 
 7:  Write the vim command to move to start of the file. 
-    -   <ANSWER HERE>
+    -   gg
 
 8:  Write the vim command delete two consicutive words. 
-    -   <ANSWER HERE>
+    -	2de
 
 9:  Write the vim command to read contents of a file. 
-    -   <ANSWER HERE>
+    - 	:r  
         
 10: Write the vim command to change every occurrence of a character string between two lines. 
-    -   <ANSWER HERE>   
+    -   #,#s/old/new/g  
